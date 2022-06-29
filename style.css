@@ -1,7 +1,9 @@
-#game{
+
+.game{
     width: 500px;
     height: 200px;
     border: 1px solid black;
+    margin: auto;
 }
 #character{
     width: 20px;
@@ -9,7 +11,9 @@
     background-color: red;
     position: relative;
     top: 150px;
-    animation: jump 500ms infinite;
+}
+.animate{
+    animation: jump 0.3s infinite linear;
 }
 @keyframes jump {
     0%{top: 150px;}
@@ -23,10 +27,13 @@
     background-color: blue;
     position: relative;
     top: 130px;
-    left: 480px;
-    animation: run is infinite;
+    left: 500px;
+    animation: run 5s infinite linear;
 }
 @keyframes run {
-    0%{top: 480px;}
-    100%{top: -40px;}
+    0%{left: 500px;}
+    100%{left: -20px;}
+}
+p{
+    text-align: center;
 }
