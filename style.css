@@ -1,8 +1,11 @@
 
 .game{
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
+    background-image: url("jump.webp");
+    background-repeat: no-repeat;
+    background-size: 1300px 800px;
+    width: 1300px;
+    height: 700px;
+    border: 2px solid white;
     margin: auto;
 }
 #character{
@@ -10,16 +13,16 @@
     height: 50px;
     background-color: red;
     position: relative;
-    top: 150px;
+    top: 600px;
 }
 .animate{
     animation: jump 0.3s linear;
 }
 @keyframes jump {
-    0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 150px;}
+    0%{top: 550px;}
+    30%{top: 500px;}
+    70%{top: 500px;}
+    100%{top: 550px;}
 
 }
 #block{
@@ -27,12 +30,12 @@
     height: 20px;
     background-color: blue;
     position: relative;
-    top: 130px;
-    left: 500px;
+    top: 580px;
+    left: 1280px;
     animation: run 1s infinite linear;
 }
 @keyframes run {
-    0%{left: 500px;}
+    0%{left: 1280px;}
     100%{left: -20px;}
 }
 p{
