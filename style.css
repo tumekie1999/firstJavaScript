@@ -5,7 +5,7 @@
     background-size: 1300px 800px;
     width: 1300px;
     height: 700px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: auto;
 }
 #character{
@@ -13,16 +13,16 @@
     height: 50px;
     background-color: red;
     position: relative;
-    top: 600px;
+    top: 440px;
 }
 .animate{
     animation: jump 0.3s linear;
 }
 @keyframes jump {
-    0%{top: 550px;}
-    30%{top: 500px;}
-    70%{top: 500px;}
-    100%{top: 550px;}
+    0%{top: 390px;}
+    30%{top: 340px;}
+    70%{top: 340px;}
+    100%{top: 390px;}
 
 }
 #block{
@@ -30,7 +30,7 @@
     height: 20px;
     background-color: blue;
     position: relative;
-    top: 580px;
+    top: 420px;
     left: 1280px;
     animation: run 1s infinite linear;
 }
