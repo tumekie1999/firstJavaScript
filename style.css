@@ -27,16 +27,24 @@
 }
 #block{
     width: 20px;
-    height: 20px;
+    height: 440px;
     background-color: blue;
     position: relative;
-    top: 420px;
     left: 1280px;
-    animation: run 1s infinite linear;
+    animation: run 2s infinite linear;
 }
 @keyframes run {
     0%{left: 1280px;}
     100%{left: -20px;}
+}
+#hole{
+    width: 20px;
+    height: 480px;
+    background-color:white;
+    position: relative;
+    top: -500px;
+    left: 1280px;
+    animation: run 2s infinite linear;
 }
 p{
     text-align: center;
